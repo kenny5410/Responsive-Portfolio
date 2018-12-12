@@ -1,55 +1,239 @@
-body {
+body{
     background-image: url("../images/whirlpool.png");
     padding: 0;
     margin: 0;
 }
 
-h1 {
-    font-weight: bold;
-    color: #4aaaa5;
-    border-bottom: 1px solid #777777;
+header{
+    background: #ffffff;
+    min-height: 70px;
+    width: 100%;
 }
 
-.bg-company-white {
-    background-color: #ffffff;
-}
-
-.navbar-brand {
-    background: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #ffffff;
-    font-size: 40px;
-    margin-left: 10%;
-}
-
-.nav-link {
+header a{
     color: #777777;
+    text-decoration: none;
     font-size: 16px;
 }
 
-.card-img {
-    width: 200px;
-    height: 150px;
-    margin-right: 20px;
+header ul{
+    margin: 0;
+    padding: 0;
 }
 
-.card-text {
-    color: #777777;
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid #bbb;
+    font-weight: bold;
 }
 
-.btn {
-    background: #4aaaa5;
-    border-color: #4aaaa5;
+header li:last-child {
+    border-right: none;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
+header nav{
+    float: right;
+    margin-top: 45px;
+    margin-right: 200px;
+}
+
+/*index.html css stuff*/
+.container{
     width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #808080;
-    border-top: #4aaaa5 8px solid;
+    margin: auto;
+    overflow: hidden;
+    height: 90px;
+}
+
+.logo{
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 90px;
+    float: left;
+    margin-left: 203px;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: bold;
     text-align: center;
+    margin: 25px 0px 0px 0px;
+}
+
+.container_2{
+    background: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 203px;
+    margin-right: 203px;
+    width: 960px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about_head{
+    color: #4aaaa5;
+    font-size: 40px;
+    padding: 10px 10px 10px 30px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+}
+
+.about_body p{
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#777777;
+    font-size: 18px;
+    padding: 20px 30px 30px 30px;
+    line-height: 1.4;
+}
+
+
+.my_picture{
+    width: 200px;
+    height: 151px;
+    padding: 30px 30px 30px 30px;
+    float: left;
+    overflow: auto;
+}
+
+
+footer{
+    background: #808080;
+    text-align: center;
+    color: #ffffff;
+    height: 40px;
+    width:100%;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
     position: fixed;
-  }
+    left: 0;
+    bottom: 0;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+/*contact.html css stuff*/
+.container_4{
+    background: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 203px;
+    margin-right: 203px;
+    width: 960px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_head{
+    color: #4aaaa5;
+    font-size: 40px;
+    padding: 10px 10px 10px 30px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+}
+
+.contact_form{
+    color: #777777;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 30px 20px;
+}
+
+input[type=text]{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 5px;
+    box-sizing: border-box;
+}
+
+input[name="message"]{
+    padding: 90px;
+}
+
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 5px 25px;
+    font-size: 18px;
+}
+/*Portfolio.html css stuff*/
+.container_5{
+    background: #ffffff;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 203px;
+    margin-right: 203px;
+    width: 960px;
+    height: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_portfolio{
+    color: #4aaaa5;
+    font-size: 40px;
+    padding: 10px 10px 10px 30px;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+}
+
+
+div.gallery img {
+    width: 275px;
+    height: 206px;
+    box-sizing: border-box; 
+    position: relative;
+    margin: 30px 30px 30px 30px;
+}
+
+div.desc_top{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 275px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    bottom: 495px;
+    margin: 30px;
+
+}
+
+div.desc_middle{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 275px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    bottom: 225px;
+    margin: 30px;
+}
+
+div.desc_bottom{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    width: 275px;
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    bottom: -40px;
+    margin: 30px;
+}

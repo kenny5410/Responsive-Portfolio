@@ -4,65 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ken's Portfolio | Home</title>
-     <!--Link to Bootstrap CSS and JS, Popper.js, and jQuery-->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-      <!--Link to External Stylesheet-->
-     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>About | Ken's Portfolio</title>
+        <!--Link to the rest.css-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <!--Link to the main sytlesheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-light">
-    <strong class="navbar-brand" style="color:#ffffff;" href="index.html">Ken Nelson</strong>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ken Nelson</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>   
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+    <section>
+        <div class="container_2">
+            <div class="about_head">
+                <h1>About Me</h1>
+            </div>
+            <div class="container_3">
+                <div>
+                    <img class="my_picture" src="assets/images/DSC_7002.jpg" alt="Ken in his element">
+                </div>
+                <div class="about_body">
+                    <p>Hello! My name is Ken Nelson and I'm so happy that you have navigated this vast Internet landscape and landed on my portfolio. Before you start looking at some of my Web Development work let me tell you a bit about myself.
+                    My jorney started in Kenya which is a country on the east coast of Africa. That is where I was born and lived until I was four years old. On October 15, 1992 I made my way to Minnesota with my Mom and Dad and settled in Little
+                    Canda. I lived there for a year and then moved to the Como Park neighborhood in St. Paul where I spent the rest of childhood. After graduating from Como Park High School I enrolled at the University of Minnesota and gained my
+                    Bachelors of Journalism after 4 years.
+                    <br></br>   
+                    After graduating from the "U" I started my millennial right of passage, moved back home and worked a retail job before I was able to find a consistant job as a bank teller to launch myself into adulthood. As it turned out a bank 
+                    teller's life was not a life for me. Growing up I was always interested computers so I decided to change my career and started working in tech support for a transportation techology company based in Minnetonka. This was a much
+                    better fit for my skills and I eventually was promoted to help run and support Beta software and hardware projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item ml-auto">
-                <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item ml-auto">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item ml-auto">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>    
-        </ul>
-    </div>  
-  </nav>
-    
-  <div class="container mt-5 mb-5 mx-auto">
-      <div class="row">
-          <div class="col-xs-8 col-sm-10 col-md-10 col-lg-10 mx-auto">
-              <div class="card">
-                  <div class="card-body">
-                      <h1>About Me</h1>
-                      <div class="card-body">
-                          <img class="card-img float-left img-fluid" src="assets/images/DSC_7002.jpg" alt="Ken">
-                          <p class="card-text">Hello! My name is Ken Nelson and I'm so happy that you have navigated this vast Internet landscape and landed on my portfolio. Before you start looking at some of my Web Development work let me tell you a bit about myself.
-                              My jorney started in Kenya which is a country on the east coast of Africa. That is where I was born and lived until I was four years old. On October 15, 1992 I made my way to Minnesota with my Mom and Dad and settled in Little
-                              Canda. I lived there for a year and then moved to the Como Park neighborhood in St. Paul where I spent the rest of childhood. After graduating from Como Park High School I enrolled at the University of Minnesota and gained my
-                              Bachelors of Journalism after 4 years.
-                              <br></br>   
-                              After graduating from the "U" I started my millennial right of passage, moved back home and worked a retail job before I was able to find a consistant job as a bank teller to launch myself into adulthood. As it turned out a bank 
-                              teller's life was not a life for me. Growing up I was always interested computers so I decided to change my career and started working in tech support for a transportation techology company based in Minnetonka. This was a much
-                              better fit for my skills and I eventually was promoted to help run and support Beta software and hardware projects.
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-
-  <footer class="footer">
-    <span class="text-white">Copyright©</span>
-  </footer>
-
+    <footer>
+        <p>Copyright ©</p>
+    </footer>
 </body>
 </html>
